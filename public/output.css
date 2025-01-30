@@ -524,9 +524,6 @@
   .relative {
     position: relative;
   }
-  .static {
-    position: static;
-  }
   .m-auto {
     margin: auto;
   }
