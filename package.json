@@ -8,12 +8,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:css": "@tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "dev:css": "@tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "nodemon --env-file=.env app.js"
   },
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "tailwindcss": "^4.0.0"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.0"
+    "@tailwindcss/cli": "^4.0.0",
+    "express": "^4.21.2"
   }
 }
